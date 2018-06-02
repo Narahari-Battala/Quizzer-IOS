@@ -9,7 +9,7 @@ Progress bar that keeps tracks of the questions , and a score label that keeps t
 
 Once the users completes the quiz , user will be given an option to restart the quiz.
 
-Finished App:
+Finished Application:
 
 https://github.com/Narahari-Battala/Images-and-GIFS/blob/master/Quizzler.gif
 
