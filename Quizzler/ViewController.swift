@@ -2,15 +2,12 @@
 //  ViewController.swift
 //  Quizzler
 //
-//  Created by Angela Yu on 25/08/2015.
-//  Copyright (c) 2015 London App Brewery. All rights reserved.
+//  Created by Narahari Battala on 03/20/2018.
 //
 
 import UIKit
 
 class ViewController: UIViewController {
-    
-    //Place your instance variables here
     
     let allQuestions=QuestionBank()
     var questionAnswer:Bool = false
@@ -74,7 +71,6 @@ class ViewController: UIViewController {
             })
             
             alert.addAction(restartAction)
-            //alert.addAction(cancelAction)
             present(alert, animated: true, completion: nil)
     }
     }
@@ -97,7 +93,4 @@ class ViewController: UIViewController {
         nextQuestion()
         
     }
-    
-
-    
 }
